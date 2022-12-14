@@ -17,8 +17,7 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        snake.h snake.cpp
-        food.h food.cpp
+        game.hpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
